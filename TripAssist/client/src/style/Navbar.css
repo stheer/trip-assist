@@ -1,0 +1,60 @@
+.PageNavbar {
+  /*border-bottom: 1px solid black;*/
+}
+
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.logo {
+  width: 45px;
+  height: 55px;
+  display: block;
+}
+
+.logo-text-wrap {
+  margin-left: -10px;
+  background: black;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+}
+
+.logo-text {
+  vertical-align: top;
+  color: white;
+  font-size: 16px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.navbar-brand a, a:hover, a:active, a:visited, a:focus {
+  text-decoration:none;
+}
+
+.navbar-custom {
+  background: white;
+}
+
+.nav-link {
+  font-family: Helvetica;
+  color: black;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.user-nav {
+  color: rgba(5, 129, 182, 0.67) !important;
+}
+
+.hidden {
+  display: none;
+}

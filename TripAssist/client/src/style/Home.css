@@ -1,0 +1,80 @@
+.Home {
+	background-color: rgba(5, 129, 182, 0.67);
+	height: 536px;
+}
+
+.home-options {
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 50px;
+}
+
+.title {
+	display: block;
+}
+
+.underline {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+#bottom {
+	color: black;
+}
+
+.welcome {
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 150%;
+}
+
+.search-botton-home {
+	display: block;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	background-color: black;
+	color: white;
+	margin: 40px auto;
+	font-size: 22px;
+	border-radius: 8px;
+}
+
+#plane-home {
+	z-index: 1;
+	position: absolute;
+	left: 70px;
+	top: 320px;
+}
+
+#cloud1-home {
+	z-index: 1;
+	position: absolute;
+	left: 70px;
+	top: 300px;
+}
+
+#cloud2-home {
+	z-index: 1;
+	position: absolute;
+	right: 80px;
+	top: 175px;
+}
+
+#cloud3-home {
+	z-index: 9999;
+	position: absolute;
+	right: 350px;
+	bottom: 145px;
+}
+
+#cloud5-home {
+	z-index: 9999;
+	position: absolute;
+	left: 120px;
+	bottom: 100px;
+}

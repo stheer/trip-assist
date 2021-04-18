@@ -1,0 +1,24 @@
+.AutoCompleteBox ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    color: black;
+    z-index: 50;
+}
+
+.AutoCompleteBox ul::before{
+    content: "";
+}
+
+.AutoCompleteBox li {
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.AutoCompleteBox li:hover {
+    background-color: #ededed;
+    text-decoration: underline;
+} 

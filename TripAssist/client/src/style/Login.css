@@ -1,0 +1,144 @@
+.Login {
+	background-color: rgba(5, 129, 182, 0.67);
+}
+
+#login-up-top {
+	position: relative;
+	height: 525px;
+}
+
+#login {
+	position: relative;
+}
+
+#login-container {
+	width: 70%;
+	height: 450px;
+	top: 40px;
+	border-radius: 15px;
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	vertical-align: middle;
+	position: absolute;
+	margin: 0px auto 0px auto;
+	position: relative;
+	z-index: 1;
+}
+
+#login-header {
+	font-weight: bold;
+	font-size: 22px;
+	position: absolute;
+	left: 75px;
+	top: 50px;
+}
+
+#login-info {
+	position: absolute;
+	left: 175px;
+	top: 150px;
+	font-size: 20px;
+	display: inline-block;
+	background-color: transparent;
+}
+
+label {
+    float: left;
+}
+
+.input-span-login {
+    display: block;
+    overflow: hidden;
+    padding: 0 10px 0 50px;
+}
+
+#login-container input[type="text"]
+{
+    background: transparent;
+    border: none;
+}
+
+.info-input-login {
+    width: 100%;
+    border: none;
+}
+
+::placeholder {
+  color: #585858;
+  opacity: 1;
+}
+
+#submit-login {
+	background-color: black;
+	color: white;
+}
+
+#incorrect-login {
+	color: red;
+	background-color: transparent;
+}
+
+#signup-div {
+	position: absolute;
+	right: 75px;
+	bottom: 15px;
+}
+
+#signup-button {
+	margin-left: 15px;
+}
+
+.planeicon-login {
+	z-index: 1;
+	position: absolute;
+	right: 110px;
+	top: 100px;
+	width: 125px;
+  	height: 100px;
+}
+
+.cloud {
+	width: 45px;
+  	height: 20px;
+}
+
+#cloud1-login {
+	z-index: 2;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+}
+
+#cloud2-login {
+	z-index: 2;
+	position: absolute;
+	right: 195px;
+	top: 75px;
+}
+
+#cloud3-login {
+	z-index: 1;
+	position: absolute;
+	right: 550px;
+	top: 15px;
+}
+
+#cloud4-login {
+	z-index: 1;
+	position: absolute;
+	right: 100px;
+	bottom: 15px;
+}
+
+#cloud5-login {
+	z-index: 1;
+	position: absolute;
+	left: 200px;
+	bottom: 100px;
+}
+
+.hide {
+	display: none;
+}

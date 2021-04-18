@@ -1,0 +1,226 @@
+.Results {
+  background-color: rgba(5, 129, 182, 0.67);
+  border: 0px;
+}
+
+#page-title {
+	margin: 25px auto;
+	width: 50%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.results-container {
+	margin: 0 75px 0px 75px;
+	display: flex;
+	flex-direction: column;
+}
+
+.results-block-min {
+    width: 90%;
+	height: 70px;
+	margin: 4px auto;
+	border-radius: 15px;
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+	position: relative;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 999;
+}
+
+.results-preview {
+	margin-left: 20px;
+	margin-right: 20px;
+	word-wrap: normal;
+	vertical-align: middle;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.city-name {
+	font-size: 18px;
+	width: 15%;
+	line-height: 130%;
+	margin-left: 35px;
+}
+
+.estimated-cost {
+	width: 20%;
+	line-height: 125%;
+}
+
+.matching-interests {
+	vertical-align: middle;
+	width: 40%;
+	line-height: 125%;
+}
+
+.covid-risk {
+	width: 25%;
+	line-height: 125%;
+}
+
+.dollars {
+	color: green;
+}
+
+.covid-level {
+	height: 5px;
+	width: 5px;
+	background-color: red;
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+
+.risk-1 {
+	width: 15px !important;
+}
+
+.risk-2 {
+	width: 30px !important;
+}
+
+.risk-3 {
+	width: 45px !important;
+}
+
+.risk-4 {
+	width: 60px !important;
+}
+
+.risk-5 {
+	width: 75px !important;
+}
+
+.risk-6 {
+	width: 90px !important;
+}
+
+.clicked-rec {
+	height: 615px;
+}
+
+.results-top {
+	display: flex;
+}
+
+.results-title {
+	margin-left: 40px;
+	margin-top: 1px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.results-list {
+	margin-bottom: 15px;
+}
+
+.results-row {
+	display: flex;
+}
+
+.result {
+	margin-left: 40px;
+	margin-right: 20px;
+	word-wrap: normal;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+.results-row .name {
+	width: 35%;
+	font-weight: bold;
+}
+
+.results-row .type {
+	width: 20%;
+}
+
+.results-row .rating {
+	width: 20%;
+}
+
+.results-row .review {
+	width: 25%;
+}
+
+.results-row .museum-name {
+	width: 30%;
+}
+
+.results-row .museum-type {
+	width: 70%;
+}
+
+.results-bottom {
+	display: flex;
+	flex-direction: column;
+}
+
+.result-topic {
+	font-weight: bold;
+}
+
+.planeicon-results {
+	z-index: 1;
+	position: absolute;
+	right: 200px;
+	top: 100px;
+	width: 125px;
+  	height: 100px;
+}
+
+.cloud {
+	width: 45px;
+  	height: 20px;
+}
+
+#cloud1-results {
+	z-index: 1;
+	position: absolute;
+	left: 70px;
+	top: 300px;
+}
+
+#cloud2-results {
+	z-index: 1;
+	position: absolute;
+	right: 80px;
+	top: 175px;
+}
+
+#cloud3-results {
+	z-index: 9999;
+	position: absolute;
+	right: 120px;
+	bottom: -145px;
+}
+
+#cloud4-results {
+	z-index: 9999;
+	position: absolute;
+	right: 100px;
+	bottom: -15px;
+}
+
+#cloud5-results {
+	z-index: 9999;
+	position: absolute;
+	left: 120px;
+	bottom: 100px;
+}
+
+.hidden {
+	display: none;
+}

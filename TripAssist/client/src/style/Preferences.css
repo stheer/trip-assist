@@ -1,0 +1,127 @@
+.Preferences {
+  background-color: rgba(5, 129, 182, 0.67);
+}
+
+#page-title {
+  margin: 25px auto;
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.preference-block {
+  width: 75%;
+  height: auto;
+  margin: 20px auto 0 auto;
+  border-radius: 15px;
+  background-color: white;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.preference-title {
+  position: relative;
+  margin: 20px 0 15px 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.preference-text{
+  position: relative;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+#preference-button {
+  margin: 15px auto 0 auto;
+  display: block;
+  background-color: grey;
+  color: black;
+  width: 150px;
+}
+
+.activated-pref-button {
+  color: white !important;
+  background-color: black !important;
+}
+
+#plane-1 {
+  z-index: 1;
+  position: absolute;
+  right: 150px;
+  top: 220px;
+  width: 125px;
+  height: 100px;
+}
+
+#plane-2 {
+  z-index: 0;
+  position: absolute;
+  left: 80px;
+  top: 720px;
+  width: 125px;
+  height: 100px;
+  /*transform: rotate(deg);*/
+}
+
+.cloud {
+  width: 45px;
+  height: 20px;
+}
+
+#cloud1-preferences {
+  z-index: 1;
+  position: absolute;
+  left: 70px;
+  top: 300px;
+}
+
+#cloud2-preferences {
+  z-index: 1;
+  position: absolute;
+  right: 80px;
+  top: 175px;
+}
+
+#cloud3-preferences {
+  z-index: 9999;
+  position: absolute;
+  right: 120px;
+  bottom: -350px;
+}
+
+#cloud4-preferences {
+  z-index: 9999;
+  position: absolute;
+  right: 100px;
+  bottom: -15px;
+}
+
+#cloud5-preferences {
+  z-index: 9999;
+  position: absolute;
+  left: 120px;
+  bottom: 100px;
+}
+
+#cloud6-preferences {
+  z-index: 9999;
+  position: absolute;
+  left: 120px;
+  bottom: -500px;
+}
+
+#cloud7-preferences {
+  z-index: 0;
+  position: absolute;
+  left: 420px;
+  bottom: -665px;
+}
+
+.hidden {
+  display: none;
+}

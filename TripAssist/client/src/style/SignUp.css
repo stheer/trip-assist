@@ -1,0 +1,125 @@
+.SignUp {
+	background-color: rgba(5, 129, 182, 0.67);
+}
+
+#sign-up {
+	position: relative;
+	height: 525px;
+}
+
+#sign-up-top {
+	position: relative;
+}
+
+#sign-up-container {
+	width: 70%;
+	height: 450px;
+	top: 40px;
+	border-radius: 15px;
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	vertical-align: middle;
+	position: absolute;
+	margin: 0px auto 40px auto;
+	position: relative;
+	z-index: 1;
+}
+
+#sign-up-header {
+	font-weight: bold;
+	font-size: 22px;
+	position: absolute;
+	left: 75px;
+	top: 50px;
+}
+
+#sign-up-info {
+	position: absolute;
+	left: 175px;
+	top: 150px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+label {
+    float: left
+}
+
+.input-span {
+    display: block;
+    overflow: hidden;
+    padding: 0 10px 0 50px;
+}
+
+.info-input {
+    width: 100%;
+    border: none;
+}
+
+#submit-signup {
+	background-color: black;
+	color: white;
+}
+
+#incorrect-signup {
+	color: red;
+	background-color: transparent;
+}
+
+#log-in-div {
+	position: absolute;
+	right: 75px;
+	bottom: 15px;
+}
+
+#login-button {
+	margin-left: 15px;
+}
+
+.planeicon {
+	z-index: 1;
+	position: absolute;
+	left: 115px;
+	bottom: 45px;
+	width: 125px;
+  	height: 100px;
+}
+
+.cloud {
+	width: 45px;
+  	height: 20px;
+}
+
+#cloud1 {
+	z-index: 2;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+}
+
+#cloud2 {
+	z-index: 2;
+	position: absolute;
+	right: 195px;
+	top: 75px;
+}
+
+#cloud3 {
+	z-index: 1;
+	position: absolute;
+	right: 250px;
+	top: 15px;
+}
+
+#cloud4 {
+	z-index: 1;
+	position: absolute;
+	right: 400px;
+	bottom: 15px;
+}
+
+.hide {
+	display: none;
+}
