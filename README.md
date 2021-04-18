@@ -1,6 +1,6 @@
 # TripAssist
 
-TripAssist is a React application that recommends cities and museums/restaurants/accommodations based on user preferences. The app takes into account Covid risk in making these recommendations.
+TripAssist is a React application that recommends cities and museums/restaurants/accommodations based on user preferences. The app takes into account Covid risk.
 
 ## Installation
 
