@@ -19,6 +19,7 @@ Search Page
 <img src="TripAssist/app-example-images/search.png">
 
 Results Pages
+<img src="TripAssist/app-example-images/results.png">
 <img src="TripAssist/app-example-images/results-clicked.png">
 <img src="TripAssist/app-example-images/results-clicked2.png">
 
