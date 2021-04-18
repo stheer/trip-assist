@@ -13,13 +13,26 @@ npm install
 ## Usage and Images
 
 Home page 
-[Home](TripAssist/app-example-images/home.png)
+[](TripAssist/app-example-images/home.png)
 
 Search Page
-[Search](TripAssist/app-example-images/search.png)
+[](TripAssist/app-example-images/search.png)
 
-Results Page
-[Results](TripAssist/app-example-images/results.png)
+Results Pages
+[](TripAssist/app-example-images/results-clicked.png)
+
+[](TripAssist/app-example-images/results-clicked2.png)
+
+Sign Up Page
+[](TripAssist/app-example-images/signup.png)
+
+Login Page
+[](TripAssist/app-example-images/login.png)
+
+User Preferences
+[](TripAssist/app-example-images/user-preferences.png)
+
+[](TripAssist/app-example-images/user-preferences2.png)
 
 ## Contributing
 Pull requests are welcome. Created in fulfillment of UPenn Masters course "Database and Information Systems."
