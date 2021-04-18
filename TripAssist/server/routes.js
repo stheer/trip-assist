@@ -216,7 +216,6 @@ function getPreferences(req, res) {
     if (err){
       console.log(err);
     }else {
-      console.log(rows);
       res.json(rows);
     }
   });
